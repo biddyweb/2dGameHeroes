@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1380A11475DD8A00B89756 /* OppSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC13809F1475DD8A00B89756 /* OppSelectViewController.m */; };
+		BC1380A21475DD8A00B89756 /* OppSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1380A01475DD8A00B89756 /* OppSelectViewController.xib */; };
+		BC1380A71475E27400B89756 /* GameScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1380A51475E27400B89756 /* GameScreenViewController.m */; };
+		BC1380A81475E27400B89756 /* GameScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC1380A61475E27400B89756 /* GameScreenViewController.xib */; };
+		BC1380AA1475E65800B89756 /* goblinProjectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1380A91475E65800B89756 /* goblinProjectImage.png */; };
+		BC1380AC1475E65E00B89756 /* warriorProjectIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = BC1380AB1475E65E00B89756 /* warriorProjectIcon.png */; };
+		BC272DF014831FD4006B4264 /* spell.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC272DEF14831FD4006B4264 /* spell.wav */; };
+		BC272DF314832064006B4264 /* enemyAttack.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC272DF214832064006B4264 /* enemyAttack.wav */; };
+		BC272DF5148322C0006B4264 /* wildVines.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC272DF4148322C0006B4264 /* wildVines.wav */; };
+		BC272DF714832408006B4264 /* charge.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC272DF614832408006B4264 /* charge.wav */; };
+		BC272DF9148324AF006B4264 /* freezing.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC272DF8148324AF006B4264 /* freezing.wav */; };
+		BC272DFB14832684006B4264 /* playSong.wav in Resources */ = {isa = PBXBuildFile; fileRef = BC272DFA14832684006B4264 /* playSong.wav */; };
+		BC331D0614762E920050C673 /* koboldProjectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC331D0514762E920050C673 /* koboldProjectImage.png */; };
+		BC331D0814762FB60050C673 /* orcProjectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC331D0714762FB60050C673 /* orcProjectImage.png */; };
+		BC331D0A147630270050C673 /* dragonProjectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC331D09147630270050C673 /* dragonProjectImage.png */; };
+		BC331D0C147631220050C673 /* skeletonProjectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC331D0B147631220050C673 /* skeletonProjectImage.png */; };
+		BC331D0E147631B40050C673 /* zombieProjectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC331D0D147631B40050C673 /* zombieProjectImage.png */; };
+		BC331D1014763AC40050C673 /* wizardProjectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC331D0F14763AC40050C673 /* wizardProjectImage.png */; };
+		BC331D1214763CCF0050C673 /* bardProjectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC331D1114763CCF0050C673 /* bardProjectImage.png */; };
+		BC331D1414763D5E0050C673 /* druidProjectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC331D1314763D5E0050C673 /* druidProjectImage.png */; };
+		BC331D1A147658AC0050C673 /* maintitle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC331D19147658AC0050C673 /* maintitle.mp3 */; };
+		BC331D1C147658E70050C673 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC331D1B147658E70050C673 /* AVFoundation.framework */; };
+		BC331D1E147659010050C673 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC331D1D147659010050C673 /* AudioToolbox.framework */; };
+		BC7C3B341478409700C53DBF /* victory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7C3B331478409700C53DBF /* victory.mp3 */; };
+		BC7C3B37147840FA00C53DBF /* losing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BC7C3B36147840FA00C53DBF /* losing.mp3 */; };
+		BCB391A81482E89100552275 /* dragonVoice.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCB391A71482E89100552275 /* dragonVoice.wav */; };
+		BCB391AA1482ED3700552275 /* orcVoice.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCB391A91482ED3700552275 /* orcVoice.wav */; };
+		BCB391AE1482EFCE00552275 /* koboldVoice.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCB391AD1482EFCE00552275 /* koboldVoice.wav */; };
+		BCB391B01482F03D00552275 /* goblinVoice.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCB391AF1482F03D00552275 /* goblinVoice.wav */; };
+		BCB391B21482F0AC00552275 /* zombieVoice.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCB391B11482F0AC00552275 /* zombieVoice.wav */; };
+		BCB391B41482F19900552275 /* skeletonVoice.wav in Resources */ = {isa = PBXBuildFile; fileRef = BCB391B31482F19900552275 /* skeletonVoice.wav */; };
+		BCB391B61482F67800552275 /* playerHit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCB391B51482F67800552275 /* playerHit.mp3 */; };
+		BCC0E9FD1475048400C32107 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC0E9FC1475048400C32107 /* UIKit.framework */; };
+		BCC0E9FF1475048400C32107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC0E9FE1475048400C32107 /* Foundation.framework */; };
+		BCC0EA011475048400C32107 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC0EA001475048400C32107 /* CoreGraphics.framework */; };
+		BCC0EA071475048400C32107 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCC0EA051475048400C32107 /* InfoPlist.strings */; };
+		BCC0EA091475048400C32107 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0EA081475048400C32107 /* main.m */; };
+		BCC0EA0D1475048400C32107 /* _D_Game_HeroesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0EA0C1475048400C32107 /* _D_Game_HeroesAppDelegate.m */; };
+		BCC0EA101475048400C32107 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC0EA0E1475048400C32107 /* MainWindow.xib */; };
+		BCC0EA131475048400C32107 /* _D_Game_HeroesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0EA121475048400C32107 /* _D_Game_HeroesViewController.m */; };
+		BCC0EA161475048400C32107 /* _D_Game_HeroesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC0EA141475048400C32107 /* _D_Game_HeroesViewController.xib */; };
+		BCC0EA1D147504C800C32107 /* startScreenBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC0EA1C147504C800C32107 /* startScreenBackground.png */; };
+		BCC0EA1F147504D500C32107 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC0EA1E147504D500C32107 /* default.png */; };
+		BCC0EA231475052F00C32107 /* CharacterSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC0EA211475052F00C32107 /* CharacterSelectViewController.m */; };
+		BCC0EA241475052F00C32107 /* CharacterSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC0EA221475052F00C32107 /* CharacterSelectViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC13809E1475DD8A00B89756 /* OppSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OppSelectViewController.h; sourceTree = "<group>"; };
+		BC13809F1475DD8A00B89756 /* OppSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OppSelectViewController.m; sourceTree = "<group>"; };
+		BC1380A01475DD8A00B89756 /* OppSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OppSelectViewController.xib; sourceTree = "<group>"; };
+		BC1380A41475E27400B89756 /* GameScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScreenViewController.h; sourceTree = "<group>"; };
+		BC1380A51475E27400B89756 /* GameScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScreenViewController.m; sourceTree = "<group>"; };
+		BC1380A61475E27400B89756 /* GameScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameScreenViewController.xib; sourceTree = "<group>"; };
+		BC1380A91475E65800B89756 /* goblinProjectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goblinProjectImage.png; sourceTree = "<group>"; };
+		BC1380AB1475E65E00B89756 /* warriorProjectIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warriorProjectIcon.png; sourceTree = "<group>"; };
+		BC272DEF14831FD4006B4264 /* spell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = spell.wav; sourceTree = "<group>"; };
+		BC272DF214832064006B4264 /* enemyAttack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = enemyAttack.wav; sourceTree = "<group>"; };
+		BC272DF4148322C0006B4264 /* wildVines.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wildVines.wav; sourceTree = "<group>"; };
+		BC272DF614832408006B4264 /* charge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = charge.wav; sourceTree = "<group>"; };
+		BC272DF8148324AF006B4264 /* freezing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = freezing.wav; sourceTree = "<group>"; };
+		BC272DFA14832684006B4264 /* playSong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playSong.wav; sourceTree = "<group>"; };
+		BC331D0514762E920050C673 /* koboldProjectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koboldProjectImage.png; sourceTree = "<group>"; };
+		BC331D0714762FB60050C673 /* orcProjectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orcProjectImage.png; sourceTree = "<group>"; };
+		BC331D09147630270050C673 /* dragonProjectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragonProjectImage.png; sourceTree = "<group>"; };
+		BC331D0B147631220050C673 /* skeletonProjectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skeletonProjectImage.png; sourceTree = "<group>"; };
+		BC331D0D147631B40050C673 /* zombieProjectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zombieProjectImage.png; sourceTree = "<group>"; };
+		BC331D0F14763AC40050C673 /* wizardProjectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizardProjectImage.png; sourceTree = "<group>"; };
+		BC331D1114763CCF0050C673 /* bardProjectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bardProjectImage.png; sourceTree = "<group>"; };
+		BC331D1314763D5E0050C673 /* druidProjectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = druidProjectImage.png; sourceTree = "<group>"; };
+		BC331D19147658AC0050C673 /* maintitle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maintitle.mp3; sourceTree = "<group>"; };
+		BC331D1B147658E70050C673 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BC331D1D147659010050C673 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BC7C3B331478409700C53DBF /* victory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = victory.mp3; sourceTree = "<group>"; };
+		BC7C3B36147840FA00C53DBF /* losing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = losing.mp3; sourceTree = "<group>"; };
+		BCB391A71482E89100552275 /* dragonVoice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dragonVoice.wav; sourceTree = "<group>"; };
+		BCB391A91482ED3700552275 /* orcVoice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = orcVoice.wav; sourceTree = "<group>"; };
+		BCB391AD1482EFCE00552275 /* koboldVoice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = koboldVoice.wav; sourceTree = "<group>"; };
+		BCB391AF1482F03D00552275 /* goblinVoice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = goblinVoice.wav; sourceTree = "<group>"; };
+		BCB391B11482F0AC00552275 /* zombieVoice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = zombieVoice.wav; sourceTree = "<group>"; };
+		BCB391B31482F19900552275 /* skeletonVoice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skeletonVoice.wav; sourceTree = "<group>"; };
+		BCB391B51482F67800552275 /* playerHit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = playerHit.mp3; sourceTree = "<group>"; };
+		BCC0E9F81475048400C32107 /* 2D Game Heroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2D Game Heroes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC0E9FC1475048400C32107 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCC0E9FE1475048400C32107 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCC0EA001475048400C32107 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCC0EA041475048400C32107 /* 2D Game Heroes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2D Game Heroes-Info.plist"; sourceTree = "<group>"; };
+		BCC0EA061475048400C32107 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCC0EA081475048400C32107 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCC0EA0A1475048400C32107 /* 2D Game Heroes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2D Game Heroes-Prefix.pch"; sourceTree = "<group>"; };
+		BCC0EA0B1475048400C32107 /* _D_Game_HeroesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _D_Game_HeroesAppDelegate.h; sourceTree = "<group>"; };
+		BCC0EA0C1475048400C32107 /* _D_Game_HeroesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_Game_HeroesAppDelegate.m; sourceTree = "<group>"; };
+		BCC0EA0F1475048400C32107 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		BCC0EA111475048400C32107 /* _D_Game_HeroesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _D_Game_HeroesViewController.h; sourceTree = "<group>"; };
+		BCC0EA121475048400C32107 /* _D_Game_HeroesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_Game_HeroesViewController.m; sourceTree = "<group>"; };
+		BCC0EA151475048400C32107 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/_D_Game_HeroesViewController.xib; sourceTree = "<group>"; };
+		BCC0EA1C147504C800C32107 /* startScreenBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startScreenBackground.png; sourceTree = "<group>"; };
+		BCC0EA1E147504D500C32107 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		BCC0EA201475052F00C32107 /* CharacterSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterSelectViewController.h; sourceTree = "<group>"; };
+		BCC0EA211475052F00C32107 /* CharacterSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterSelectViewController.m; sourceTree = "<group>"; };
+		BCC0EA221475052F00C32107 /* CharacterSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterSelectViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC0E9F51475048400C32107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC331D1E147659010050C673 /* AudioToolbox.framework in Frameworks */,
+				BC331D1C147658E70050C673 /* AVFoundation.framework in Frameworks */,
+				BCC0E9FD1475048400C32107 /* UIKit.framework in Frameworks */,
+				BCC0E9FF1475048400C32107 /* Foundation.framework in Frameworks */,
+				BCC0EA011475048400C32107 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC0E9ED1475048400C32107 = {
+			isa = PBXGroup;
+			children = (
+				BC331D1D147659010050C673 /* AudioToolbox.framework */,
+				BC331D1B147658E70050C673 /* AVFoundation.framework */,
+				BCC0EA021475048400C32107 /* 2D Game Heroes */,
+				BCC0E9FB1475048400C32107 /* Frameworks */,
+				BCC0E9F91475048400C32107 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCC0E9F91475048400C32107 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0E9F81475048400C32107 /* 2D Game Heroes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCC0E9FB1475048400C32107 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0E9FC1475048400C32107 /* UIKit.framework */,
+				BCC0E9FE1475048400C32107 /* Foundation.framework */,
+				BCC0EA001475048400C32107 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCC0EA021475048400C32107 /* 2D Game Heroes */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0EA0B1475048400C32107 /* _D_Game_HeroesAppDelegate.h */,
+				BCC0EA0C1475048400C32107 /* _D_Game_HeroesAppDelegate.m */,
+				BCC0EA111475048400C32107 /* _D_Game_HeroesViewController.h */,
+				BCC0EA121475048400C32107 /* _D_Game_HeroesViewController.m */,
+				BCC0EA201475052F00C32107 /* CharacterSelectViewController.h */,
+				BCC0EA211475052F00C32107 /* CharacterSelectViewController.m */,
+				BC13809E1475DD8A00B89756 /* OppSelectViewController.h */,
+				BC13809F1475DD8A00B89756 /* OppSelectViewController.m */,
+				BC1380A41475E27400B89756 /* GameScreenViewController.h */,
+				BC1380A51475E27400B89756 /* GameScreenViewController.m */,
+				BCC0EA0E1475048400C32107 /* MainWindow.xib */,
+				BCC0EA141475048400C32107 /* _D_Game_HeroesViewController.xib */,
+				BCC0EA221475052F00C32107 /* CharacterSelectViewController.xib */,
+				BC1380A01475DD8A00B89756 /* OppSelectViewController.xib */,
+				BC1380A61475E27400B89756 /* GameScreenViewController.xib */,
+				BCC0EA031475048400C32107 /* Supporting Files */,
+			);
+			path = "2D Game Heroes";
+			sourceTree = "<group>";
+		};
+		BCC0EA031475048400C32107 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC0EA1E147504D500C32107 /* default.png */,
+				BC1380A91475E65800B89756 /* goblinProjectImage.png */,
+				BC331D0B147631220050C673 /* skeletonProjectImage.png */,
+				BC331D0D147631B40050C673 /* zombieProjectImage.png */,
+				BC1380AB1475E65E00B89756 /* warriorProjectIcon.png */,
+				BC7C3B331478409700C53DBF /* victory.mp3 */,
+				BCB391AD1482EFCE00552275 /* koboldVoice.wav */,
+				BC272DF214832064006B4264 /* enemyAttack.wav */,
+				BCB391AF1482F03D00552275 /* goblinVoice.wav */,
+				BCB391B31482F19900552275 /* skeletonVoice.wav */,
+				BC272DEF14831FD4006B4264 /* spell.wav */,
+				BC272DF614832408006B4264 /* charge.wav */,
+				BC272DF4148322C0006B4264 /* wildVines.wav */,
+				BC272DFA14832684006B4264 /* playSong.wav */,
+				BCB391B51482F67800552275 /* playerHit.mp3 */,
+				BC272DF8148324AF006B4264 /* freezing.wav */,
+				BC7C3B36147840FA00C53DBF /* losing.mp3 */,
+				BCB391A71482E89100552275 /* dragonVoice.wav */,
+				BCB391A91482ED3700552275 /* orcVoice.wav */,
+				BC331D19147658AC0050C673 /* maintitle.mp3 */,
+				BCB391B11482F0AC00552275 /* zombieVoice.wav */,
+				BC331D0F14763AC40050C673 /* wizardProjectImage.png */,
+				BC331D0514762E920050C673 /* koboldProjectImage.png */,
+				BC331D1314763D5E0050C673 /* druidProjectImage.png */,
+				BC331D1114763CCF0050C673 /* bardProjectImage.png */,
+				BC331D09147630270050C673 /* dragonProjectImage.png */,
+				BC331D0714762FB60050C673 /* orcProjectImage.png */,
+				BCC0EA1C147504C800C32107 /* startScreenBackground.png */,
+				BCC0EA041475048400C32107 /* 2D Game Heroes-Info.plist */,
+				BCC0EA051475048400C32107 /* InfoPlist.strings */,
+				BCC0EA081475048400C32107 /* main.m */,
+				BCC0EA0A1475048400C32107 /* 2D Game Heroes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCC0E9F71475048400C32107 /* 2D Game Heroes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC0EA191475048400C32107 /* Build configuration list for PBXNativeTarget "2D Game Heroes" */;
+			buildPhases = (
+				BCC0E9F41475048400C32107 /* Sources */,
+				BCC0E9F51475048400C32107 /* Frameworks */,
+				BCC0E9F61475048400C32107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2D Game Heroes";
+			productName = "2D Game Heroes";
+			productReference = BCC0E9F81475048400C32107 /* 2D Game Heroes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCC0E9EF1475048400C32107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "University of Illinois at Springfield";
+			};
+			buildConfigurationList = BCC0E9F21475048400C32107 /* Build configuration list for PBXProject "2D Game Heroes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCC0E9ED1475048400C32107;
+			productRefGroup = BCC0E9F91475048400C32107 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC0E9F71475048400C32107 /* 2D Game Heroes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCC0E9F61475048400C32107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC0EA071475048400C32107 /* InfoPlist.strings in Resources */,
+				BCC0EA101475048400C32107 /* MainWindow.xib in Resources */,
+				BCC0EA161475048400C32107 /* _D_Game_HeroesViewController.xib in Resources */,
+				BCC0EA1D147504C800C32107 /* startScreenBackground.png in Resources */,
+				BCC0EA1F147504D500C32107 /* default.png in Resources */,
+				BCC0EA241475052F00C32107 /* CharacterSelectViewController.xib in Resources */,
+				BC1380A21475DD8A00B89756 /* OppSelectViewController.xib in Resources */,
+				BC1380A81475E27400B89756 /* GameScreenViewController.xib in Resources */,
+				BC1380AA1475E65800B89756 /* goblinProjectImage.png in Resources */,
+				BC1380AC1475E65E00B89756 /* warriorProjectIcon.png in Resources */,
+				BC331D0614762E920050C673 /* koboldProjectImage.png in Resources */,
+				BC331D0814762FB60050C673 /* orcProjectImage.png in Resources */,
+				BC331D0A147630270050C673 /* dragonProjectImage.png in Resources */,
+				BC331D0C147631220050C673 /* skeletonProjectImage.png in Resources */,
+				BC331D0E147631B40050C673 /* zombieProjectImage.png in Resources */,
+				BC331D1014763AC40050C673 /* wizardProjectImage.png in Resources */,
+				BC331D1214763CCF0050C673 /* bardProjectImage.png in Resources */,
+				BC331D1414763D5E0050C673 /* druidProjectImage.png in Resources */,
+				BC331D1A147658AC0050C673 /* maintitle.mp3 in Resources */,
+				BC7C3B341478409700C53DBF /* victory.mp3 in Resources */,
+				BC7C3B37147840FA00C53DBF /* losing.mp3 in Resources */,
+				BCB391A81482E89100552275 /* dragonVoice.wav in Resources */,
+				BCB391AA1482ED3700552275 /* orcVoice.wav in Resources */,
+				BCB391AE1482EFCE00552275 /* koboldVoice.wav in Resources */,
+				BCB391B01482F03D00552275 /* goblinVoice.wav in Resources */,
+				BCB391B21482F0AC00552275 /* zombieVoice.wav in Resources */,
+				BCB391B41482F19900552275 /* skeletonVoice.wav in Resources */,
+				BCB391B61482F67800552275 /* playerHit.mp3 in Resources */,
+				BC272DF014831FD4006B4264 /* spell.wav in Resources */,
+				BC272DF314832064006B4264 /* enemyAttack.wav in Resources */,
+				BC272DF5148322C0006B4264 /* wildVines.wav in Resources */,
+				BC272DF714832408006B4264 /* charge.wav in Resources */,
+				BC272DF9148324AF006B4264 /* freezing.wav in Resources */,
+				BC272DFB14832684006B4264 /* playSong.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC0E9F41475048400C32107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC0EA091475048400C32107 /* main.m in Sources */,
+				BCC0EA0D1475048400C32107 /* _D_Game_HeroesAppDelegate.m in Sources */,
+				BCC0EA131475048400C32107 /* _D_Game_HeroesViewController.m in Sources */,
+				BCC0EA231475052F00C32107 /* CharacterSelectViewController.m in Sources */,
+				BC1380A11475DD8A00B89756 /* OppSelectViewController.m in Sources */,
+				BC1380A71475E27400B89756 /* GameScreenViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCC0EA051475048400C32107 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC0EA061475048400C32107 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCC0EA0E1475048400C32107 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC0EA0F1475048400C32107 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		BCC0EA141475048400C32107 /* _D_Game_HeroesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCC0EA151475048400C32107 /* en */,
+			);
+			name = _D_Game_HeroesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCC0EA171475048400C32107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCC0EA181475048400C32107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCC0EA1A1475048400C32107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2D Game Heroes/2D Game Heroes-Prefix.pch";
+				INFOPLIST_FILE = "2D Game Heroes/2D Game Heroes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCC0EA1B1475048400C32107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "2D Game Heroes/2D Game Heroes-Prefix.pch";
+				INFOPLIST_FILE = "2D Game Heroes/2D Game Heroes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCC0E9F21475048400C32107 /* Build configuration list for PBXProject "2D Game Heroes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC0EA171475048400C32107 /* Debug */,
+				BCC0EA181475048400C32107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC0EA191475048400C32107 /* Build configuration list for PBXNativeTarget "2D Game Heroes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC0EA1A1475048400C32107 /* Debug */,
+				BCC0EA1B1475048400C32107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCC0E9EF1475048400C32107 /* Project object */;
+}
